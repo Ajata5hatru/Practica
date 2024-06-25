@@ -1,5 +1,12 @@
+:root {--color-red: #650000;
+  --color-green: #004d15;
+  --color-blue: #070035;
+  }
+
 body{
-    background-color: rgb(7, 0, 53);
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(127deg, var(--color-red)-15%, var(--color-blue), var(--color-green));    
     color: aliceblue;
     display: flex;
     flex-direction: column;
@@ -25,4 +32,8 @@ button{border:none;
     box-shadow: 1px 1px 3px white, -1px -1px 3px white;
     background:none;
     color:rgb(255,255,255,0.4);
-    margin-left: 10px;}
+    margin-left: 10px;
+}
+
+#results {padding-top: 15px;}
+    
