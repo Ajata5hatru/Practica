@@ -1,0 +1,26 @@
+:root {color: #5b828e
+    #bbcfd7
+    #e3d7c9
+    #ba9a88
+    #ac7e62}
+body {
+    background-color: #ba9a88;
+    width: 100vw;
+    height: 100 vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1 {Color: #e3d7c9;}
+
+input {border-color: #e3d7c9;
+background-color: rgba(255, 222, 203, 0.489);
+color: #5b828e;}
+
+button{
+    background-color: #bbcfd7;
+    color: #5b828e;
+    border-color: #5b828e;
+}
