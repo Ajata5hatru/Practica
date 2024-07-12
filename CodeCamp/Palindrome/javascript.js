@@ -1,6 +1,6 @@
 const userInput = document.getElementById("text-input");
 const checkBtn = document.getElementById("check-btn");
-const resultDiv = document.getElementById("results");
+const resultDiv = document.getElementById("result");
 const COLORGREEN = "#004d15";
 const COLORRED = "#650000";
 
