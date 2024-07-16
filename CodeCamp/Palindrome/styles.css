@@ -1,0 +1,39 @@
+:root {--color-red: #650000;
+  --color-green: #004d15;
+  --color-blue: #070035;
+  }
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(127deg, var(--color-red)-15%, var(--color-blue), var(--color-green));    
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+main {
+    align-items: center;
+    text-align: center;
+}
+
+#def {padding: 5px auto;
+    width: 55%;
+    align-items: center;
+}
+
+input{background-color: rgb(255,255,255,0.7);
+    color:black;
+    border-radius: 3px;}
+
+button{border:none;
+    box-shadow: 1px 1px 3px white, -1px -1px 3px white;
+    background:none;
+    color:rgb(255,255,255,0.4);
+    margin-left: 10px;
+}
+
+#result {padding-top: 15px;}
+    
